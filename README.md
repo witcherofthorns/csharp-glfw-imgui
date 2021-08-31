@@ -2,10 +2,11 @@
 <img src="https://github.com/witcherofthorns/csharp-glfw-imgui/blob/master/gif.gif" width=80% />
 
 This is a project for cross-platform window creation, OpenGL context creation and input control, implemented in C#</br>
-It is a ported library from the native C language to my favorite C# language</br>
+It is a ported library from the native C language to my favorite C# language. The built-in ImGui in this project has been adapted for GLFW and GL context, you can use this without worrying about problems. All ImGui draw calls are called from the classic Nuget ImGui.Net package
 
-The built-in ImGui in this project has been adapted for GLFW and GL context, you can use this without worrying about problems :)</br>
-All ImGui draw calls are called from the classic Nuget ImGui.Net package
+## Plans for the future
+* Implement GLEW for GL calls
+* Add cross-platform compilation of solution
 
 ## How to use
 Create GLFW window and GL context</br>
